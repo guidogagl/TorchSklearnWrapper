@@ -8,9 +8,9 @@ setup(
     author_email='tua@email.com',
     packages=find_packages(exclude=['tests', 'logs', 'configs', 'script', 'notebooks']),
     install_requires=[
+        'scikit-learn-intelex',
         'numpy',
         'torch',
-        'pytorch-lightning'
     ],
     classifiers=[
         'Development Status :: 3 - Alpha',
